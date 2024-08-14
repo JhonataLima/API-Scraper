@@ -1,0 +1,8 @@
+
+requests
+uvicorn
+bs4 
+pandas
+unidecode
+fastapi
+typing
