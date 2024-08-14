@@ -1,0 +1,35 @@
+@startuml
+class FastAPI {
+  + get_producoes(): Dict[str, str]
+  + get_processamentos(): Dict[str, str]
+  + get_comercializacoes(): Dict[str, str]
+  + get_importacoes(): Dict[str, str]
+  + get_exportacoes(): Dict[str, str]
+}
+
+class Producoes {
+  + get_producoes(): Dict[str, str]
+}
+
+class Processamentos {
+  + get_processamentos(): Dict[str, str]
+}
+
+class Comercializacoes {
+  + get_comercializacoes(): Dict[str, str]
+}
+
+class Importacoes {
+  + get_importacoes(): Dict[str, str]
+}
+
+class Exportacoes {
+  + get_exportacoes(): Dict[str, str]
+}
+
+FastAPI --> Producoes
+FastAPI --> Processamentos
+FastAPI --> Comercializacoes
+FastAPI --> Importacoes
+FastAPI --> Exportacoes
+@enduml
