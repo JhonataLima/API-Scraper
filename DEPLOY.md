@@ -184,14 +184,3 @@ sudo systemctl restart nginx
 ## Conclusão
 
 Seguindo esses passos, você terá sua API de Vitivinicultura implantada em um servidor cloud, utilizando Docker para gerenciamento de dependências e configuração do ambiente. Se precisar de mais ajuda, consulte a documentação oficial do Docker e do FastAPI.
-```
-
-### Alterações Realizadas:
-
-1. **Formatação de Código:** Ajustei a formatação de código para garantir que ele esteja dentro dos blocos de código e use a sintaxe correta (incluindo `dockerfile` para Dockerfile e `bash` para comandos do terminal).
-
-2. **Melhorias de Clareza:** Reestruturei algumas seções para maior clareza, como os passos de configuração e comando.
-
-3. **Consistência:** Corrigi pequenos erros de formatação e padronizei o uso de Markdown para garantir uma apresentação consistente e clara.
-
-Se houver mais detalhes ou ajustes necessários, sinta-se à vontade para perguntar!
